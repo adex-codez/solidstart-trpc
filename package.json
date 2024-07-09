@@ -12,9 +12,7 @@
     "@solidjs/start": "^1.0.2",
     "@trpc/client": "^10.45.2",
     "@trpc/server": "^10.45.2",
-    "@typeschema/valibot": "^0.13.4",
     "solid-js": "^1.8.17",
-    "valibot": "^0.29.0",
     "vinxi": "^0.3.12",
     "zod": "^3.23.8"
   },
