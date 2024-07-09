@@ -20,15 +20,9 @@ dependencies:
   '@trpc/server':
     specifier: ^10.45.2
     version: 10.45.2
-  '@typeschema/valibot':
-    specifier: ^0.13.4
-    version: 0.13.5(valibot@0.29.0)
   solid-js:
     specifier: ^1.8.17
     version: 1.8.18
-  valibot:
-    specifier: ^0.29.0
-    version: 0.29.0
   vinxi:
     specifier: ^0.3.12
     version: 0.3.12
@@ -1369,32 +1363,6 @@ packages:
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
-    dev: false
-
-  /@typeschema/core@0.13.2:
-    resolution: {integrity: sha512-pAt0MK249/9szYaoPuvzhSfOd3smrLhhwCCpUNB4onX32mRx5F3lzDIveIYGQkLYRq58xOX5sjoW+n72f/MLLw==}
-    peerDependencies:
-      '@types/json-schema': ^7.0.15
-    peerDependenciesMeta:
-      '@types/json-schema':
-        optional: true
-    dev: false
-
-  /@typeschema/valibot@0.13.5(valibot@0.29.0):
-    resolution: {integrity: sha512-9S3daaU7ShC1aRkZVmsW5N8uTPE7l4Af/c+rWTyFZi2/yp4Iiped8947WGX03lMd3UW6/UdbfOaiOh7HByQPiw==}
-    peerDependencies:
-      '@gcornut/valibot-json-schema': ^0.31.0
-      valibot: ^0.31.0
-    peerDependenciesMeta:
-      '@gcornut/valibot-json-schema':
-        optional: true
-      valibot:
-        optional: true
-    dependencies:
-      '@typeschema/core': 0.13.2
-      valibot: 0.29.0
-    transitivePeerDependencies:
-      - '@types/json-schema'
     dev: false
 
   /@vercel/nft@0.26.5:
@@ -4251,10 +4219,6 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-    dev: false
-
-  /valibot@0.29.0:
-    resolution: {integrity: sha512-JhZn08lwZPhAamOCfBwBkv/btQt4KeQhekULPH8crH053zUCLSOGEF2zKExu3bFf245tsj6J1dY0ysd/jUiMIQ==}
     dev: false
 
   /validate-html-nesting@1.2.2:
